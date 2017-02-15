@@ -32,7 +32,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://wallpapercave.com/wp/9XNMK1U.jpg');
+  background-image: url(http://wallpapercave.com/wp/9XNMK1U.jpg);
   background-size: cover;
   background-position: center;
   margin: 0 0 30px;
