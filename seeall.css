@@ -22,6 +22,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
+
 }
 
 header p {
@@ -32,7 +33,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://wallpapercave.com/wp/9XNMK1U.jpg');
+  background-image: url('http://cdn.paper4pc.com/images/super-cars-wallpaper-1.jpg');
   background-size: cover;
   background-position: center;
   margin: 0 0 30px;
@@ -43,17 +44,6 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h4 {
-  font-size: 80px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
-}
 
 section .row img {
   margin: 0 0 30px;
@@ -64,30 +54,11 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
-
 footer {
   font-size: 12px;
   padding: 20px 0;
 }
+
 
 footer .col-sm-8 {
   display: flex;
