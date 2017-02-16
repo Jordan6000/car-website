@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url(http://wallpapercave.com/wp/9XNMK1U.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 30px;
+  max-width: 100%;
+  width: auto;
+  height: 800px;
+  color: #ffffff;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h4 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.col-sm-4{
+  color: #000000
+}
