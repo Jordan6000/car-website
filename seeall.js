@@ -44,8 +44,6 @@ cars.forEach(function(car) {
     modalimage.attr("src" , car.imageUrl);
     nameText.text(car.name);
     infoText.text(car.topspeed + car.price);
-
-
   });
 
 });
