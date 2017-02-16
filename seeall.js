@@ -22,7 +22,8 @@ var carselement = $('.cars');
 
 var modal = $('#myModal');
 var modalimage = $('#modalimage');
-var captionText = $("#caption");
+var nameText = $("#name");
+var infoText = $("#info");
 var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
@@ -41,8 +42,10 @@ cars.forEach(function(car) {
     console.log("You clicked");
     modal.css("display" , "block");
     modalimage.attr("src" , car.imageUrl);
-    captionText.text(car.name);
-    captionText.text(car.topspeed + car.price);
+    nameText.text(car.name);
+    infoText.text(car.topspeed + car.price);
+
+
   });
 
 });

@@ -30,6 +30,14 @@ header p {
   margin: 0;
 }
 
+.col-sm-8 {
+  position: top: -10px; right:-100px;
+}
+
+.col-sm-4 {
+  color: #000000
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -44,6 +52,17 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.btn.btn-primary{
+  border-radius: 2px;
+  border: 0px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+.btn.btn-primary:hover{
+  color: #ffffff;
+  background-color: #000000;
+}
 
 section .row img {
   margin: 0 auto 30px;
@@ -108,7 +127,7 @@ p.sansserif {
 }
 
 
-#caption {
+.caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -116,7 +135,6 @@ p.sansserif {
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
 }
 
 
@@ -163,6 +181,7 @@ p.sansserif {
 }
 
 .carimage {
+  object-fit: contain;
   height: 225px;
   width: auto;
 }
